@@ -1,0 +1,7 @@
+m, n, k = int(input()) , int(input()), int(input())
+
+for i in range(m,n,k):
+    print(i,end = "")
+    if(i < (n - k)):
+      print(", ",end = "")
+    
